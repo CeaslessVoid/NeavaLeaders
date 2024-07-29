@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_CG_FRELJORD_NAME" Language="en_US">
+			<Text>Freljord</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CG_FRELJORD_DESCRIPTION" Language="en_US">
+			<Text>Freljord Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CG_FRELJORD_ADJECTIVE" Language="en_US">
+			<Text>Freljord</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_CG_ASHE_NAME" Language="en_US">
+			<Text>Ashe</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_CG_ASHE" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CG_FRELJORD_NAME" Language="en_US">
+			<Text>Iceborn</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CG_FRELJORD_DESCRIPTION" Language="en_US">
+			<Text>Combat victories provide [ICON_Faith] Faith equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit. +5 [ICON_Production] Production and +5 [ICON_Food] Food from Tundra tiles.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_CG_ASHE_NAME" Language="en_US">
+			<Text>The Frost Archer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_CG_ASHE_DESCRIPTION" Language="en_US">
+			<Text>All ranged class units gain +15 [ICON_STRENGTH] Combat Strength. +150% experience for all units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CG_VOLLEY_NAME" Language="en_US">
+			<Text>Volley</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CG_VOLLEY_DESCRIPTION" Language="en_US">
+			<Text>Replaces Archer. Has higher [ICON_STRENGTH] Combat Strength than normal Archer (Not ranged strength).</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CG_HAWKRAIDER_NAME" Language="en_US">
+			<Text>Hawk Raider</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CG_HAWKRAIDER_DESCRIPTION" Language="en_US">
+			<Text>Replaces Horseman. Has higher [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CG_ICEFORTRESS_NAME" Language="en_US">
+			<Text>Ice Fortress</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CG_ICEFORTRESS_DESCRIPTION" Language="en_US">
+			<Text>Available at Engineering tech. Provides +10 [ICON_FAITH] Faith and +10 [ICON_Culture] Culture.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

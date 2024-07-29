@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_CG_VOLLEY" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_CG_VOLLEY" Kind="KIND_ABILITY"/>
+		<Row Type="UNIT_CG_HAWKRAIDER" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_CG_HAWKRAIDER" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_CG_VOLLEY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CG_VOLLEY" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_CG_VOLLEY" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_CG_HAWKRAIDER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CG_HAWKRAIDER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_CG_HAWKRAIDER" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_CG_HAWKRAIDER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CG_HAWKRAIDER" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_CG_VOLLEY" ReplacesUnitType="UNIT_ARCHER"/>
+		<Row CivUniqueUnitType="UNIT_CG_HAWKRAIDER" ReplacesUnitType="UNIT_HORSEMAN"/>
+	</UnitReplaces>
+
+	<Units>
+		<Row UnitType="UNIT_CG_VOLLEY" BaseMoves="2" Cost="80" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CG_VOLLEY_NAME" Description="LOC_UNIT_CG_VOLLEY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="1" Combat="20" RangedCombat="35" Range="3" TraitType="TRAIT_UNIT_CG_VOLLEY" PrereqTech="TECH_ARCHERY" MandatoryObsoleteTech="TECH_BALLISTICS"/>
+		<Row UnitType="UNIT_CG_HAWKRAIDER" Cost="100" Maintenance="1" BaseMoves="6" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="45" StrategicResource="RESOURCE_HORSES" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_CG_HAWKRAIDER_NAME" Description="LOC_UNIT_CG_HAWKRAIDER_DESCRIPTION" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_UNIT_CG_HAWKRAIDER" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_HORSEBACK_RIDING"/>
+	</Units>
+
+	<Tags>
+		<Row Tag="CLASS_CG_VOLLEY" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_CG_HAWKRAIDER" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+	<TypeTags>
+		<Row Type="UNIT_CG_VOLLEY" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_CG_VOLLEY" Tag="CLASS_CG_VOLLEY"/>
+		<Row Type="ABILITY_CG_VOLLEY" Tag="CLASS_CG_VOLLEY"/>
+		<Row Type="UNIT_CG_HAWKRAIDER" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_CG_HAWKRAIDER" Tag="CLASS_CG_HAWKRAIDER"/>
+		<Row Type="ABILITY_CG_HAWKRAIDER" Tag="CLASS_CG_HAWKRAIDER"/>
+	</TypeTags>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_CG_VOLLEY" UpgradeUnit="UNIT_CROSSBOWMAN"/>
+		<Row Unit="UNIT_CG_HAWKRAIDER" UpgradeUnit="UNIT_CAVALRY"/>
+	</UnitUpgrades>
+</GameData>

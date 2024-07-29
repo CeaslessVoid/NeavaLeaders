@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_CG_FRELJORD" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_CG_FRELJORD" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_BUILDING_CG_ICEFORTRESS" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_UNIT_CG_VOLLEY" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_UNIT_CG_HAWKRAIDER" Kind="KIND_TRAIT" />
+	</Types>
+
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" Name="LOC_CIVILIZATION_CG_FRELJORD_NAME" Description="LOC_CIVILIZATION_CG_FRELJORD_DESCRIPTION" Adjective="LOC_CIVILIZATION_CG_FRELJORD_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="20" Ethnicity="ETHNICITY_EURO"/>
+	</Civilizations>
+
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_CG_FRELJORD_LOCATION" SortIndex="10" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_CG_FRELJORD_SIZE" SortIndex="20" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_CG_FRELJORD_POPULATION" SortIndex="30" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_CG_FRELJORD_CAPITAL" SortIndex="40" />
+	</CivilizationInfo>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" LeaderType="LEADER_CG_ASHE" CapitalName="LOC_CITY_CG_FRELJORD"/>
+	</CivilizationLeaders>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" TraitType="TRAIT_CIVILIZATION_CG_FRELJORD" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" TraitType="TRAIT_BUILDING_CG_ICEFORTRESS" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" TraitType="TRAIT_UNIT_CG_VOLLEY" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" TraitType="TRAIT_UNIT_CG_HAWKRAIDER" />
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_CG_FRELJORD" Name="LOC_TRAIT_CIVILIZATION_CG_FRELJORD_NAME" Description="LOC_TRAIT_CIVILIZATION_CG_FRELJORD_DESCRIPTION" />
+		<Row TraitType="TRAIT_BUILDING_CG_ICEFORTRESS" Name="LOC_BUILDING_CG_ICEFORTRESS_NAME" />
+		<Row Name="LOC_UNIT_CG_VOLLEY_NAME" TraitType="TRAIT_UNIT_CG_VOLLEY"/>
+		<Row Name="LOC_UNIT_CG_HAWKRAIDER_NAME" TraitType="TRAIT_UNIT_CG_HAWKRAIDER"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_CG_FRELJORD" ModifierId="CG_FRELJORD_UNITS_COMBAT_YEILD" />
+		<Row TraitType="TRAIT_CIVILIZATION_CG_FRELJORD" ModifierId="CG_FRELJORD_TUNDRA_PRODUCTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_CG_FRELJORD" ModifierId="CG_FRELJORD_TUNDRA_HILLS_PRODUCTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_CG_FRELJORD" ModifierId="CG_FRELJORD_TUNDRA_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_CG_FRELJORD" ModifierId="CG_FRELJORD_TUNDRA_HILLS_FOOD"/>
+	</TraitModifiers>
+		
+	<Modifiers>
+		<Row>
+			<ModifierId>CG_FRELJORD_UNITS_COMBAT_YEILD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_HILLS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_HILLS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>CG_FRELJORD_UNITS_COMBAT_YEILD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_UNITS_COMBAT_YEILD</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_HILLS_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_HILLS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_HILLS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CG_FRELJORD_TUNDRA_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" TerrainType="TERRAIN_TUNDRA" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" TerrainType="TERRAIN_SNOW" Tier="3"/>
+	</StartBiasTerrains>
+
+	<!--FOR YnAMP - supporting Greatest and Giant Earth -->
+	<StartPosition>
+			<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_CG_FRELJORD"			X="82" Y="61" />
+			<Replace MapName="GiantEarth" Civilization="CIVILIZATION_CG_FRELJORD"				X="60" Y="80" />
+	</StartPosition>
+</GameData>

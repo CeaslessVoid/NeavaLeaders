@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UILeaders"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_CG_ASHE_NEUTRAL"/>
+			<m_ObjectName text="LEADER_CG_ASHE_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CG_ASHE_UNHAPPY"/>
+			<m_ObjectName text="LEADER_CG_ASHE_UNHAPPY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CG_ASHE_HAPPY"/>
+			<m_ObjectName text="LEADER_CG_ASHE_HAPPY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CG_ASHE_STERN"/>
+			<m_ObjectName text="LEADER_CG_ASHE_STERN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CG_ASHE_SURPRISED"/>
+			<m_ObjectName text="LEADER_CG_ASHE_SURPRISED"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

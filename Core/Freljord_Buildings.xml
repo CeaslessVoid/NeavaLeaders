@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_CG_ICEFORTRESS" Kind="KIND_BUILDING"/>
+	</Types>
+
+	<Buildings>
+		<Row BuildingType="BUILDING_CG_ICEFORTRESS" Name="LOC_BUILDING_CG_ICEFORTRESS_NAME" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Maintenance="1" Cost="150" AdvisorType="ADVISOR_CONQUEST" PrereqTech="TECH_ENGINEERING" TraitType="TRAIT_BUILDING_CG_ICEFORTRESS" CitizenSlots="1"/>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_CG_ICEFORTRESS" YieldType="YIELD_FAITH" YieldChange="10"/>
+		<Row BuildingType="BUILDING_CG_ICEFORTRESS" YieldType="YIELD_CULTURE" YieldChange="10"/>
+	</Building_YieldChanges>
+</GameInfo>

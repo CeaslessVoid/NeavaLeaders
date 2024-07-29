@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_1" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_2" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_3" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_4" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_5" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_6" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_7" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_8" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_9" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_10" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_11" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_12" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_13" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_14" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_15" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_16" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_17" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_18" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_19" />
+		<Row CivilizationType="CIVILIZATION_CG_FRELJORD" CityName="LOC_CITY_CG_FRELJORD_20" />
+	</CityNames>
+</GameData>

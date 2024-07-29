@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_CG_ASHE" BackgroundImage="freljordloading.dds"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_CG_ASHE" BackgroundImage="freljordbackground.dds"/>
+	</DiplomacyInfo>
+</GameData>
